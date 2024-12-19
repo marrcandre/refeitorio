@@ -1,0 +1,62 @@
+[
+    {
+        "model": "core.cardapio",
+        "pk": 1,
+        "fields": {
+            "dia": "SEG",
+            "proteina": "Carne de panela",
+            "opcao_vegetariana": "Refogado de soja",
+            "acompanhamento": "Arroz branco/integral, feijão, polenta cremosa",
+            "saladas": "Repolho, chuchu cozido, tomate",
+            "sobremesa": "Laranja"
+        }
+    },
+    {
+        "model": "core.cardapio",
+        "pk": 2,
+        "fields": {
+            "dia": "TER",
+            "proteina": "Sobrecoxa frita",
+            "opcao_vegetariana": "Ovos mexidos",
+            "acompanhamento": "Arroz branco/integral, feijão, espaguete alho e óleo",
+            "saladas": "Mix de folhas, tabule, beterraba ralada",
+            "sobremesa": "Banana"
+        }
+    },
+    {
+        "model": "core.cardapio",
+        "pk": 3,
+        "fields": {
+            "dia": "QUA",
+            "proteina": "Lombo suíno",
+            "opcao_vegetariana": "Hambúrguer de soja",
+            "acompanhamento": "Arroz branco/integral, feijão, batata-doce cozida",
+            "saladas": "Alface, cenoura cozida, cebola em conserva",
+            "sobremesa": "Maçã"
+        }
+    },
+    {
+        "model": "core.cardapio",
+        "pk": 4,
+        "fields": {
+            "dia": "QUI",
+            "proteina": "Bife grelhado",
+            "opcao_vegetariana": "Ovos fritos",
+            "acompanhamento": "Arroz branco/integral, feijão, batata rústica",
+            "saladas": "Rúcula, abóbora cozida, tomate",
+            "sobremesa": "Melancia"
+        }
+    },
+    {
+        "model": "core.cardapio",
+        "pk": 5,
+        "fields": {
+            "dia": "SEX",
+            "proteina": "Frango empanado",
+            "opcao_vegetariana": "Bolinho de soja",
+            "acompanhamento": "Arroz branco/integral, feijão, macarrão à carbonara",
+            "saladas": "Acelga, beterraba cozida, pepino",
+            "sobremesa": "Laranja"
+        }
+    }
+]

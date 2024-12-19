@@ -8,7 +8,7 @@ from django.utils.translation import gettext_lazy as _
 
 from core import models
 
-
+@admin.register(models.User)
 class UserAdmin(BaseUserAdmin):
     """Define the admin pages for users."""
 
@@ -51,4 +51,10 @@ class UserAdmin(BaseUserAdmin):
     )
 
 
-admin.site.register(models.User, UserAdmin)
+@admin.register(models.Cardapio)
+class CardapioAdmin(admin.ModelAdmin):
+    """Define the admin pages for cardapio."""
+
+    ordering = ["dia"]
+    list_display = ["dia", "proteina", "opcao_vegetariana", "sobremesa"]
+    
